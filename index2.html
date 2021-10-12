@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c2972daf59.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>InstagramPhotoFeedBootstrap</title>
+</head>
+
+<body>
+
+    <body>
+        <nav class="navbar navbar-dark bg-dark mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-muted" href="index.html"><i class="fab fa-instagram"
+                        style="margin-right: 5px;"></i>Instagram</a>
+
+
+
+                <div class="d-flex">
+                    <div class="ml-auto">
+                        <button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Create a new post
+                        </button>
+                    </div>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Create new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <a href=""><i class="fas fa-camera link-dark"></i></a>
+                                    <a href=""><i class="fas fa-map-marker-alt link-dark m-3"></i></a>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary btn-sm"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success btn-sm">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="btn-group">
+                        <button class="btn btn-sm dropdown-toggle text-muted" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid mt-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm justify-content-center">
+                        <li class="page-item"><a class="page-link" href="index.html"><i class="fas fa-stop" style="color: red"></i></a></li>
+                        <li class="page-item active"><a class="page-link" href="photo_grid.html"><i class="fas fa-th " style="color:black;"></i></a></li>
+                </ul>
+            </nav>
+
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/28/2f/74/282f7469-0ba3-f3f4-c409-f10021b6d059/194491401825.jpg/1200x1200bf-60.jpg"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Portada del disco "Diñero & Sangre" del gran grupo Trovadores Tales, un grupo legendario del Rap chileno. Este disco fue lanzado en el año 2003 y es su segundo albúm.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                
+                                </div>
+    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://pbs.twimg.com/media/CnGNDrbXgAAHmBS.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">10.000 likes</h5>
+                                <p class="card-text">Libro "Reyes de La Jungla" del gran Lalo Meneses, un gran Breaker y MC pionero en el Hiphop Chileno, líder del aclamado grupo de Rap Panteras Negras, que sería el primer grupo de Rap Chileno.</p>
+                                <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_916838-MLC44020790445_112020-O.jpg"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este es el gran albúm "Andanzas" del gran Boomer con Sindicato de La Danza, albúm estrenado en el año 2003. Boomer un gran exponente del Rap Chileno y pionero en los ritmos Raggamuffin y Dancehall en Chile.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71hT7u1XIIL._SL1050_.jpg"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este es el gran albúm "2Pacalypse Now" del gran Tupac Shakur, quien fue un gran MC de los 90 en USA, este es su albúm debut que fue lanzado en el año 1991.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEV7vQ9F4sN-2sYQVi0xRfcyBzWL4XhO5KfMzSt8464ihmmGaI-oO2wd8ezn8qetgNRI&usqp=CAU"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este es el gran albúm "The Infamous" del gran grupo Mobb Deep, un grupo de USA perteneciente a los suburbios negros de Queensbridge New York. "The Infamous" es su segundo albúm y fue lanzado en el año 1995.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Ig7hEub3BhoByYOpk1qZta785y4ls3cV39kcj9J_niGyJ4kNRf_a5okyzW_6VzGu5n8&usqp=CAU"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este gran albúm es el albúm "Expansion Team" lanzado en el año 2001 y es del grupo de Rap Dilated Peoples, un grupo de Rap de USA del estado de California.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://mp3.hhgroups.com/albumes/Ari-Gancho-perfecto-33096_front.jpg"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este albúm es el albúm "Gancho Perfecto" lanzado en el año 1999 de la gran MC española/dominicana Arianna Puello más conocida como Ari.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://e.snmc.io/i/1200/s/b243be4a5dade2a268cdba311645a6ec/1352422"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este gran albúm es el albúm "Poesía Difusa" lanzado en el año 2003 y es del gran Nach, un gran MC español de Albacete pero que se crió en la ciudad de Alicante de España.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div>
+                                <h2>First Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                            <img src="https://mp3.hhgroups.com/albumes/SFDK-2001-Odisea-en-el-lodo-31647_F300.jpg"
+                                class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">10.000 likes</h5>
+                                    <p class="card-text">Este gran albúm es el albúm "2001 Odisea en el Lodo" del grupo SFDK, un gran grupo del Rap Español pertencientes a la ciudad de Sevilla.</p>
+                                    <div class="text-muted d-flex"><span><i class="far fa-heart"></i>  Comentarios...</span><span class="ms-auto"><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+        </body>
+    
+    </html>
